@@ -1,14 +1,14 @@
 <vector android:height="24dp" android:viewportHeight="19.82"
     android:viewportWidth="18" android:width="21.796165dp" xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#FF000000" android:pathData="M4.75,1.63L2.85,1.63L2.85,0.82a0.9,0.9 0,0 1,1 -0.82h0a0.89,0.89 0,0 1,1 0.82Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M8.55,1.63L6.65,1.63L6.65,0.82a0.9,0.9 0,0 1,0.95 -0.82h0a0.9,0.9 0,0 1,1 0.82Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M12.35,1.63h-1.9L10.45,0.82a0.89,0.89 0,0 1,1 -0.82h0a0.9,0.9 0,0 1,0.95 0.82Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M12.46,1.39L1.94,1.39A1.93,1.93 0,0 0,0 3.33L0,15.77a1.94,1.94 0,0 0,1.91 1.95L5,17.72a0.78,0.78 0,0 0,0.54 -0.32s0.42,-0.66 0.52,-0.89a0.42,0.42 0,0 0,-0.42 -0.55L2.89,15.96A1.11,1.11 0,0 1,1.74 14.91l0,-10.62a1.15,1.15 0,0 1,1.17 -1.1h9a1.12,1.12 0,0 1,1.15 1.09L13.06,6.75a0.43,0.43 0,0 0,0.75 0.3l0.64,-0.69a1.33,1.33 0,0 0,0.35 -0.89L14.8,3.77A2.36,2.36 0,0 0,12.46 1.39Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M3.38,4.93h5.33v0.99h-5.33z"/>
-    <path android:fillColor="#FF000000" android:pathData="M8.71,4.43L3.38,4.43a0.5,0.5 0,0 0,-0.5 0.5L2.88,5.91a0.5,0.5 0,0 0,0.5 0.5h5.33a0.51,0.51 0,0 0,0.5 -0.5L9.21,4.91a0.51,0.51 0,0 0,-0.5 -0.5Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M3.38,8.41h2.96v0.99h-2.96z"/>
-    <path android:fillColor="#FF000000" android:pathData="M6.34,7.91h-3a0.5,0.5 0,0 0,-0.5 0.5v1a0.5,0.5 0,0 0,0.5 0.5h3a0.51,0.51 0,0 0,0.5 -0.5v-1a0.51,0.51 0,0 0,-0.5 -0.5Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M3.38,11.89h4.08v0.99h-4.08z"/>
-    <path android:fillColor="#FF000000" android:pathData="M7.47,11.39L3.38,11.39a0.5,0.5 0,0 0,-0.5 0.5v1a0.5,0.5 0,0 0,0.5 0.5h4.09A0.51,0.51 0,0 0,8 12.91L8,11.91a0.5,0.5 0,0 0,-0.5 -0.5Z"/>
-    <path android:fillColor="#FF000000" android:pathData="M16.41,5.99a0.28,0.28 0,0 1,0.18 0.06l0.31,0.26a0.32,0.32 0,0 1,0 0.45L7.51,18.63c-0.12,0.15 -0.77,0.16 -0.77,0.16s-0.13,-0.65 0,-0.79L16.15,6.13a0.34,0.34 0,0 1,0.26 -0.14m0,-1h0a1.33,1.33 0,0 0,-1 0.52L6,17.36c-0.19,0.24 -0.38,0.64 -0.19,1.63l0.16,0.83 0.84,0c1,0 1.33,-0.3 1.52,-0.54L17.7,7.4a1.36,1.36 0,0 0,-0.17 -1.88l-0.32,-0.25a1.21,1.21 0,0 0,-0.8 -0.29Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M4.75,1.63L2.85,1.63L2.85,0.82a0.9,0.9 0,0 1,1 -0.82h0a0.89,0.89 0,0 1,1 0.82Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M8.55,1.63L6.65,1.63L6.65,0.82a0.9,0.9 0,0 1,0.95 -0.82h0a0.9,0.9 0,0 1,1 0.82Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M12.35,1.63h-1.9L10.45,0.82a0.89,0.89 0,0 1,1 -0.82h0a0.9,0.9 0,0 1,0.95 0.82Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M12.46,1.39L1.94,1.39A1.93,1.93 0,0 0,0 3.33L0,15.77a1.94,1.94 0,0 0,1.91 1.95L5,17.72a0.78,0.78 0,0 0,0.54 -0.32s0.42,-0.66 0.52,-0.89a0.42,0.42 0,0 0,-0.42 -0.55L2.89,15.96A1.11,1.11 0,0 1,1.74 14.91l0,-10.62a1.15,1.15 0,0 1,1.17 -1.1h9a1.12,1.12 0,0 1,1.15 1.09L13.06,6.75a0.43,0.43 0,0 0,0.75 0.3l0.64,-0.69a1.33,1.33 0,0 0,0.35 -0.89L14.8,3.77A2.36,2.36 0,0 0,12.46 1.39Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M3.38,4.93h5.33v0.99h-5.33z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M8.71,4.43L3.38,4.43a0.5,0.5 0,0 0,-0.5 0.5L2.88,5.91a0.5,0.5 0,0 0,0.5 0.5h5.33a0.51,0.51 0,0 0,0.5 -0.5L9.21,4.91a0.51,0.51 0,0 0,-0.5 -0.5Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M3.38,8.41h2.96v0.99h-2.96z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M6.34,7.91h-3a0.5,0.5 0,0 0,-0.5 0.5v1a0.5,0.5 0,0 0,0.5 0.5h3a0.51,0.51 0,0 0,0.5 -0.5v-1a0.51,0.51 0,0 0,-0.5 -0.5Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M3.38,11.89h4.08v0.99h-4.08z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M7.47,11.39L3.38,11.39a0.5,0.5 0,0 0,-0.5 0.5v1a0.5,0.5 0,0 0,0.5 0.5h4.09A0.51,0.51 0,0 0,8 12.91L8,11.91a0.5,0.5 0,0 0,-0.5 -0.5Z"/>
+    <path android:fillColor="@color/black_active_focused_icon" android:pathData="M16.41,5.99a0.28,0.28 0,0 1,0.18 0.06l0.31,0.26a0.32,0.32 0,0 1,0 0.45L7.51,18.63c-0.12,0.15 -0.77,0.16 -0.77,0.16s-0.13,-0.65 0,-0.79L16.15,6.13a0.34,0.34 0,0 1,0.26 -0.14m0,-1h0a1.33,1.33 0,0 0,-1 0.52L6,17.36c-0.19,0.24 -0.38,0.64 -0.19,1.63l0.16,0.83 0.84,0c1,0 1.33,-0.3 1.52,-0.54L17.7,7.4a1.36,1.36 0,0 0,-0.17 -1.88l-0.32,-0.25a1.21,1.21 0,0 0,-0.8 -0.29Z"/>
 </vector>

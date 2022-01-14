@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fox.dailylines.ui.homeFragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.fox.dailylines.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.fox.dailylines.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="com.fox.dailylines.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+
+</navigation>

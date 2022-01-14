@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="@string/home"
+        android:iconTint="@color/black_active_unfocused_icon"
+        android:icon="@drawable/ic_system_house_icon_24px"
+        />
+    <item
+        android:id="@+id/Notes"
+        android:title="@string/notes"
+        android:iconTint="@color/black_active_unfocused_icon"
+        android:icon="@drawable/ic_system_notes_icon_24px"
+        />
+    <item
+        android:id="@+id/Tasks"
+        android:title="@string/tasks"
+        android:iconTint="@color/black_active_unfocused_icon"
+        android:icon="@drawable/ic_system_tasks_icon_24px"/>
+    <item
+        android:id="@+id/Timer"
+        android:title="@string/timer"
+        android:iconTint="@color/black_active_unfocused_icon"
+        android:icon="@drawable/ic_system_timer_icon_24px"/>
+
+</menu>
