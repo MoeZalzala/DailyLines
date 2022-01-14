@@ -6,4 +6,5 @@
     <string name="notes">Notes</string>
     <string name="tasks">Tasks</string>
     <string name="timer">Timer</string>
+    <string name="hello">Hello</string>
 </resources>
