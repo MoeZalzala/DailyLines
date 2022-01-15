@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/Home"
+        android:id="@+id/homeFragment"
         android:title="@string/home"
         android:icon="@drawable/ic_system_house_icon_24px"
+        android:actionLayout="@layout/fragment_home"
         />
     <item
-        android:id="@+id/Notes"
+        android:id="@+id/notesFragment"
         android:title="@string/notes"
         android:icon="@drawable/ic_system_notes_icon_24px"
+        android:actionLayout="@layout/fragment_notes"
         />
     <item
-        android:id="@+id/Tasks"
+        android:id="@+id/tasksFragment"
         android:title="@string/tasks"
-        android:icon="@drawable/ic_system_tasks_icon_24px"/>
+        android:icon="@drawable/ic_system_tasks_icon_24px"
+        android:actionLayout="@layout/fragment_tasks"
+        />
+
     <item
-        android:id="@+id/Timer"
+        android:id="@+id/timerFragment"
         android:title="@string/timer"
-        android:icon="@drawable/ic_system_timer_icon_24px"/>
+        android:icon="@drawable/ic_system_timer_icon_24px"
+        android:actionLayout="@layout/fragment_timer"
+        />
 
 </menu>

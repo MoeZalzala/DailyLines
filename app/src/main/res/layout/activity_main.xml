@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <variable
+            name="viewModel"
+            type="com.fox.dailylines.ui.main.MainActivityViewModel" />
 
     </data>
 
@@ -11,21 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.main.MainActivity">
-
-        <nl.joery.animatedbottombar.AnimatedBottomBar
-            android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            app:abb_indicatorAppearance="round"
-            app:abb_indicatorMargin="18dp"
-            app:abb_selectedTabType="text"
-            app:abb_selectedIndex="0"
-            app:abb_tabs="@menu/bottom_navigation_menu"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            />
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView"
@@ -37,9 +25,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.48"
             app:navGraph="@navigation/app_navigation" />
 
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:menu="@menu/bottom_navigation_menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

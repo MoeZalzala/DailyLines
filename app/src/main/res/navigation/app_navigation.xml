@@ -12,17 +12,17 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/notesFragment"
-        android:name="com.fox.dailylines.NotesFragment"
+        android:name="com.fox.dailylines.ui.notesFragment.NotesFragment"
         android:label="fragment_notes"
         tools:layout="@layout/fragment_notes" />
     <fragment
         android:id="@+id/tasksFragment"
-        android:name="com.fox.dailylines.TasksFragment"
+        android:name="com.fox.dailylines.ui.tasksFragment.TasksFragment"
         android:label="fragment_tasks"
         tools:layout="@layout/fragment_tasks" />
     <fragment
         android:id="@+id/timerFragment"
-        android:name="com.fox.dailylines.TimerFragment"
+        android:name="com.fox.dailylines.ui.timerFragment.TimerFragment"
         android:label="fragment_timer"
         tools:layout="@layout/fragment_timer" />
 
