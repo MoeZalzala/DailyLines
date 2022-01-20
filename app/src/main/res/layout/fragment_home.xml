@@ -130,6 +130,43 @@
             app:layout_constraintTop_toBottomOf="@id/notes_recycler"
             tools:ignore="TouchTargetSizeCheck" />
 
+        <TextView
+            android:id="@+id/tasks_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:text="0"
+            android:textColor="@color/counters_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/tasks_state_spinner"
+            app:layout_constraintTop_toTopOf="@id/tasks_state_spinner"
+            app:layout_constraintBottom_toBottomOf="@id/tasks_state_spinner"
+            />
+
+        <View
+            android:id="@+id/tasks_counter_view"
+            android:layout_width="28dp"
+            android:layout_height="0dp"
+            android:background="@drawable/counters_shape"
+            app:layout_constraintBottom_toBottomOf="@id/tasks_counter"
+            app:layout_constraintEnd_toEndOf="@id/tasks_counter"
+            app:layout_constraintStart_toStartOf="@id/tasks_counter"
+            app:layout_constraintTop_toTopOf="@id/tasks_counter"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@id/tasks_state_spinner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
