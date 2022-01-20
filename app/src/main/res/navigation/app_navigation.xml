@@ -13,12 +13,6 @@
         <action
             android:id="@+id/action_homeFragment_to_addNotesFragment"
             app:destination="@id/addNotesFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_notesFragment"
-            app:destination="@id/notesFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_tasksFragment"
-            app:destination="@id/tasksFragment" />
     </fragment>
     <fragment
         android:id="@+id/notesFragment"
@@ -45,7 +39,11 @@
         android:id="@+id/timerFragment"
         android:name="com.fox.dailylines.ui.timerFragment.TimerFragment"
         android:label="fragment_timer"
-        tools:layout="@layout/fragment_timer" />
+        tools:layout="@layout/fragment_timer" >
+        <action
+            android:id="@+id/action_timerFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addNotesFragment"
         android:name="com.fox.dailylines.AddNotesFragment"
