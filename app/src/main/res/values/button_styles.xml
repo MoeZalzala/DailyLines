@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="widget.Design.FoxActionButton" parent="android:Widget">
+        <item name="android:background">@drawable/design_fab_background</item>
+        <item name="android:clickable">true</item>
+        <item name="maxImageSize">@dimen/design_fab_image_size</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>
