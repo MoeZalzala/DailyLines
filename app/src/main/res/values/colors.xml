@@ -15,11 +15,31 @@
     <color name="white_active_unfocused_icon">#B3FFFFFF</color>
     <color name="white_inactive_icon">#80FFFFFF</color>
     <!-- app colors -->
-    <color name="text_color">#31291D</color>
+    <color name="header_text_color">#31291D</color>
+    <color name="body_text_color">#E631291D</color>
+    <color name="body_text_color_2">#CC31291D</color>
+
     <color name="counters_color">#FE9B72</color>
     <color name="counters_view_color">#6BFE9B72</color>
     <!-- view color -->
     <color name="view_color">#0D000000</color>
+    <!-- item colors -->
+    <color name="yellow_item">#D9FEC971</color>
+    <color name="yellow_item_view">#B3FEC971</color>
+
+    <color name="purple_item">#D9B693FD</color>
+    <color name="purple_item_view">#B3B693FD</color>
+
+    <color name="blue_item">#D900D4FE</color>
+    <color name="blue_item_view">#B300D4FE</color>
+
+    <color name="green_item">#D94DC7B8</color>
+    <color name="green_item_view">#B34DC7B8</color>
+
+    <color name="red_item">#D9FF6666</color>
+    <color name="red_item_view">#B3FF6666</color>
+
+
 
 
 </resources>
