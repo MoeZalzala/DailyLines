@@ -26,7 +26,8 @@
             android:textColor="@color/header_text_color"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
         <TextView
             android:id="@+id/userName"
@@ -39,7 +40,8 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@id/hello"
             app:layout_constraintTop_toBottomOf="@id/hello"
-            tools:text="Moe Zalzala" />
+            tools:text="Moe Zalzala"
+            />
 
         <View
             android:id="@+id/line"
@@ -48,7 +50,8 @@
             android:layout_marginTop="16dp"
             android:background="@color/view_color"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/userName" />
+            app:layout_constraintTop_toBottomOf="@id/userName"
+            />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/add_note"
@@ -62,7 +65,8 @@
             app:fabCustomSize="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/line"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            />
 
         <TextView
             android:id="@+id/notes"
@@ -74,7 +78,8 @@
             android:textColor="@color/header_text_color"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/line" />
+            app:layout_constraintTop_toBottomOf="@id/line"
+            />
 
         <TextView
             android:id="@+id/notes_counter"
@@ -86,7 +91,8 @@
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@id/notes"
-            app:layout_constraintTop_toTopOf="@id/notes" />
+            app:layout_constraintTop_toTopOf="@id/notes"
+            />
 
         <View
             android:id="@+id/notes_counter_view"
@@ -98,18 +104,32 @@
             app:layout_constraintStart_toStartOf="@id/notes_counter"
             app:layout_constraintTop_toTopOf="@id/notes_counter"
             />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/notes_recycler"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/notes"
             tools:listitem="@layout/item_note"
             />
+
+        <Spinner
+            android:id="@+id/tasks_state_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:entries="@array/tasks_state"
+            android:spinnerMode="dropdown"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/notes_recycler"
+            tools:ignore="TouchTargetSizeCheck" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

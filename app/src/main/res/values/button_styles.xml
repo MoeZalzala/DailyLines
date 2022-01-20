@@ -7,4 +7,5 @@
         <item name="backgroundTint">@color/white</item>
         <item name="elevation">0dp</item>
     </style>
+
 </resources>
