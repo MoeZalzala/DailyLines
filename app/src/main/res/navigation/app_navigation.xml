@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_homeFragment_to_addNotesFragment"
             app:destination="@id/addNotesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_noteDetailsFragment"
+            app:destination="@id/noteDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_taskDetailsFragment"
+            app:destination="@id/taskDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/notesFragment"
@@ -22,6 +28,9 @@
         <action
             android:id="@+id/action_notesFragment_to_addNotesFragment"
             app:destination="@id/addNotesFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_noteDetailsFragment"
+            app:destination="@id/noteDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/tasksFragment"
@@ -34,6 +43,9 @@
         <action
             android:id="@+id/action_tasksFragment_to_nestedTaskFragment"
             app:destination="@id/nestedTaskFragment" />
+        <action
+            android:id="@+id/action_tasksFragment_to_taskDetailsFragment"
+            app:destination="@id/taskDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/timerFragment"
@@ -59,5 +71,15 @@
         android:name="com.fox.dailylines.NestedTaskFragment"
         android:label="nested_task_fragment"
         tools:layout="@layout/fragment_nested_task" />
+    <fragment
+        android:id="@+id/noteDetailsFragment"
+        android:name="com.fox.dailylines.NoteDetailsFragment"
+        android:label="fragment_note_details"
+        tools:layout="@layout/fragment_note_details" />
+    <fragment
+        android:id="@+id/taskDetailsFragment"
+        android:name="com.fox.dailylines.TaskDetailsFragment"
+        android:label="fragment_task_details"
+        tools:layout="@layout/fragment_task_details" />
 
 </navigation>
