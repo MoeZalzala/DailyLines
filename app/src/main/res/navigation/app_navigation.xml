@@ -58,6 +58,6 @@
         android:id="@+id/nestedTaskFragment"
         android:name="com.fox.dailylines.NestedTaskFragment"
         android:label="nested_task_fragment"
-        tools:layout="@layout/nested_task_fragment" />
+        tools:layout="@layout/fragment_nested_task" />
 
 </navigation>

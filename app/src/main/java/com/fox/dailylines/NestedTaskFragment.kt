@@ -19,7 +19,7 @@ class NestedTaskFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.nested_task_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_nested_task, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

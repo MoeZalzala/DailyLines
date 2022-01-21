@@ -13,4 +13,5 @@
     <string name="fake_note_description">This is just a bunch of rubbish text as a note
     description to see how items would look like</string>
     <string name="fake_date">1/20/2022</string>
+    <string name="task_fake_title">Implement material design rules</string>
 </resources>
