@@ -5,14 +5,15 @@
     android:id="@+id/app_navigation"
     app:startDestination="@id/homeFragment">
 
-    <fragment
+       <fragment
         android:id="@+id/homeFragment"
         android:name="com.fox.dailylines.ui.homeFragment.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_addNotesFragment"
-            app:destination="@id/addNotesFragment" />
+           <action
+               android:id="@+id/action_homeFragment_to_addNotesFragment"
+               app:destination="@id/addNotesFragment"
+               app:popUpTo="@id/homeFragment" />
         <action
             android:id="@+id/action_homeFragment_to_noteDetailsFragment"
             app:destination="@id/noteDetailsFragment" />

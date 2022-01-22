@@ -22,6 +22,5 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         super.onResume()
         binding.bottomNavigation.setupWithNavController(findNavController(R.id.fragmentContainerView))
     }
-
 }
 
