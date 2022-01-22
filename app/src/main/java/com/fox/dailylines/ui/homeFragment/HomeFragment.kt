@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.Navigation
 import com.fox.dailylines.R
 import com.fox.dailylines.databinding.FragmentHomeBinding
 import com.fox.dailylines.ui.base.BaseFragment
@@ -20,6 +21,8 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        
+        binding.addNote.setOnClickListener { v ->
+            Navigation.findNavController(v).navigate(R.id.action_homeFragment_to_addNotesFragment)
+        }
     }
 }
